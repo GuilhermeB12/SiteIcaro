@@ -6,6 +6,7 @@ body{
 ul {
     padding: 0px!important;
 }
+/*
 header{
     
     display:block;
@@ -13,24 +14,36 @@ header{
     top:0;
     left:0;
     width:100%;
-    background:white;
-}
+    background:white; 
+}*/
+
 .menu-principal {
+        
+    display:block;
+    top:0;
+    left:0;
+
     position: relative;
     background-color: white;
     width: 100%;
     margin: 0 auto;
     height: 105px;
-    border-bottom: 3px solid gray;
+
 }
 
+.selction-carrossel{
+    margin-top: 1%;
 
+}
 
 main{
-    
+    background-color: white;
     width: 100%;
     float: left;
-    position: relative;
+    position: fixed;
+    border-bottom: 3px solid gray;
+    top: 0;
+    z-index: 99;
 }
 
 .logo{
