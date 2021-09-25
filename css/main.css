@@ -126,10 +126,13 @@ main{
     margin-top: 106px;
 }
 
-
+.celular{
+    display: none;
+}
 
 /* responsivo até 768px */
 @media screen and (max-width: 768px) {
+
     nav {
         flex-direction: row;
         justify-content: space-around;
@@ -238,7 +241,8 @@ main{
     }
 
     .logo{
-        position: fixed;
+        position: center;
+
        
         float: left;
         padding: 0px;
@@ -289,23 +293,36 @@ main{
         
     }
     
+
+
     .shop a{
         background-image: url(../img/bag.png);
         background-repeat: no-repeat;
         background-position: 90%;
         background-color: transparent;
         border: none;
-        width: 90px;
+        width: 50px;
         color:black;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 10px;
         text-transform: uppercase;
-        text-align: left;
+        text-align: center;
+        margin-right: 2%;
     }
     
     .selction-carrossel{
         margin-top: 23%;
     
     }
-    
+
+    .celular{
+    display: inline;
+  
+    }
+    .menu-principal{
+        display: none;
+    } 
+
+
+
 }
