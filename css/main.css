@@ -284,7 +284,7 @@ main{
         margin-top: 3%;
     }
 
-    .shop{
+    .shop-celular{
         width: 5%;
         float: right;
         margin-right: 3%;
@@ -295,7 +295,7 @@ main{
     
 
 
-    .shop a{
+    .shop-celular a{
         background-image: url(../img/bag.png);
         background-repeat: no-repeat;
         background-position: 90%;
@@ -307,7 +307,7 @@ main{
         font-size: 10px;
         text-transform: uppercase;
         text-align: center;
-        margin-right: 2%;
+        margin-right: 5%;
     }
     
     .selction-carrossel{
@@ -323,6 +323,12 @@ main{
         display: none;
     } 
 
+    .butao a {
+        background-image: url(../img/bag.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+    }
 
 
 }
